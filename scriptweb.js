@@ -45,7 +45,7 @@ function buttonwa(wa) {
     let pesan = "Saya Pesan \n";
 
     cart.forEach((produk, index) => {
-        pesan += `${index}. ${produk.nama} x 1 \n`;
+        pesan += `${index}. ${produk.nama} x ${produk.qty} \n`;
     });
 
     window.open (`https://wa.me/089695203795?text=${pesan}`);
