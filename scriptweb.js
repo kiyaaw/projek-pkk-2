@@ -42,7 +42,7 @@ function updateCart() {
 }
 
 function buttonwa(wa) {
-    let pesan = "Saya Pesan \n";
+    let pesan = "hallo kiya, aku mau pesen ";
 
     cart.forEach((produk, index) => {
         pesan += `${index}. ${produk.nama} x ${produk.qty} \n`;
